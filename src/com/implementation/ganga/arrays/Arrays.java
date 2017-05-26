@@ -7,7 +7,7 @@ public class Arrays {
 		
 	}
 	public void insert (int value) {
-		
+		System.out.println("Test");
 	}
 	public int find(int value) {
 		return 0;
