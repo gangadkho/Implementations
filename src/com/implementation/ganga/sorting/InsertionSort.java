@@ -1,5 +1,7 @@
 package com.implementation.ganga.sorting;
 
+//Comparisons - O(n2)
+//Works in O(N) for almost sorted array/sorted array
 public class InsertionSort {
 	
 	static int[] arr = new int[]{5,3,2,7,1};

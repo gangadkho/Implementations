@@ -1,5 +1,7 @@
 package com.implementation.ganga.sorting;
 
+//Comparisons - O(n2)
+//Swaps - O(n)
 public class SelectionSort {
 	static int[] arr = new int[]{5,3,2,7,1};
 	static int size = arr.length;
