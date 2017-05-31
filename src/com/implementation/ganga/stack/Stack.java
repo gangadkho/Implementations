@@ -3,15 +3,15 @@ package com.implementation.ganga.stack;
 public class Stack {
 
 	int top;
-	int[] stackArr;
+	char[] stackArr;
 	int max;
 	public Stack(int max) {
 		this.max = max;
 		top = -1;
-		stackArr  = new int[max];
+		stackArr  = new char[max];
 	}
 	
-	public void push(int x) {
+	public void push(char x) {
 		if(top < max) {
 			stackArr[++top] = x;
 		} else {
@@ -19,18 +19,19 @@ public class Stack {
 		}
 	}
 	
-	public int pop() {
+	public char pop() {
 		if(top!=-1) {
 			return stackArr[top--];
-		} 
-		return -1;
+		}
+		return 0; 
+		
 	}
 	
 	public int peek() {
 		if(stackArr.length!=0) {
 			return stackArr[top];
 		}
-		return -1;
+		return 0;
 	}
 	
 	public void printStack(Stack stk) {
@@ -40,9 +41,6 @@ public class Stack {
 	}
 	public static void main(String[] args) {
 		Stack stack = new Stack(3);
-		stack.push(3);
-		stack.push(9);
-		stack.printStack(stack);
 	}
 
 }
