@@ -1,17 +1,17 @@
 //Arrays and String Manipulations
 
-1. Arrays(Implementation)
-2. Whether String has all unique characters
-3. Reverse a String
-4. Whether s1 is a permutation of s2
+1. Arrays(Implementation) \
+2. Whether String has all unique characters\ (Same like permutation, so not done)
+3. Reverse a String\
+4. Whether s1 is a permutation of s2\
 5. Replace all spaces by  "%20"
-6. Compress string aaabbcddeee => a3b2c1d2e3
-7. Whether s2 is a rotation of s1 => s1=waterbottle, s2=erbottlewat
-8. Stack (Implementation)
-9. Delimiter Check
-10. Numbers with same first and last digit
-11. Sort Array with respect to another array
-12. Find total number of negative nos in row wise/col wise sorted array
+6. Compress string aaabbcddeee => a3b2c1d2e3 \
+7. Whether s2 is a rotation of s1 => s1=waterbottle, s2=erbottlewat\
+8. Stack (Implementation)\
+9. Delimiter Check\
+10. Numbers with same first and last digit\
+11. Sort Array with respect to another array\
+12. Find total number of negative nos in row wise/col wise sorted array\
 13. Maximum sum of a subarray (O(n)-Kadane's algorithm, Brute force - More than O(n2)
 
 
@@ -19,16 +19,16 @@
 
 1. Remove duplicates from unsorted linked list (with buffer nd without buffer)
 2. Kth to last element in a singly linked list
-3. Linked List reversal (Iterative/Recursive/Stack)
+3. Linked List reversal (Iterative/Recursive/Stack)\
 
 
 //Sorting
 
-1. Bubble Sort
-2. Insertion Sort
-3. Selection Sort
+1. Bubble Sort\
+2. Insertion Sort\
+3. Selection Sort\
 
 //Others
 
-1. LRU Cache
+1. LRU Cache\
 2. Derivative of Polynomial 
